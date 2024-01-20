@@ -1,0 +1,81 @@
+body {
+  background-color: black;
+}
+div {
+  border: 7px solid rgb(219, 115, 115); 
+  padding:20px; 
+  max-width: 800px; 
+  margin: 20px auto; 
+   background-color: #b6d3c5;
+}
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4ea886;
+  color: #fff;
+}
+input  {
+  color: rgb(234, 24, 24);
+}
+.container {
+   display: flex; 
+  justify-content: 
+  space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(33, 100, 66);
+}
+.item {
+  background-color: rgb(81, 94, 152);
+  padding: 10px;
+  align-items: center;
+}
+.containers {
+  display: grid;
+  grid-template-columns: 
+  repeat(3, 1fr);
+  gap: 20px;
+  background-color: bisque;
+}
+.items {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: blue;
+}
+@media (max-width: 900px) {
+  .containers{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+@media (min-width: 768px) {
+  .containers{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+.containers_inline{
+  display: inline-grid;
+  grid-template-columns: 
+  repeat(3, 1fr);
+  gap: 20px;
+  background-color: bisque;
+}
+.items {
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: blue;
+}

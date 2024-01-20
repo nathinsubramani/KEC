@@ -1,0 +1,19 @@
+# Query: us
+# ContextLines: 1
+
+
+
+index.html:
+   9          <hr>
+  10:         <p>this is line break<br>using tag br</p>
+  11          <pre>
+  12  this is pre formetted text.
+  13: By using pre tag it displays exam input as output.M
+  14: new line can be shown by using pre tag only other wise
+  15  new lines are ignored.
+
+  17          </pre>
+  18:         <p style="color:red;">color is red by using style="color:red"; tag in paragrapgh tag </p>
+  19  
+  20:         <img src="C:\Users\snath\OneDrive\Pictures\Instagram\IMG_20220114_075622_162.jpg" alt="starshorts" width="500" height="600">
+  21          <a href="https://www.google.com">
